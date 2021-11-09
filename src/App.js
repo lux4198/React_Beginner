@@ -1,6 +1,7 @@
 import { createTheme , ThemeProvider } from '@material-ui/core/styles';
 import './App.css';
 import CustomBttn from './components/CustomBttn';
+import NavBar from './components/NavBar';
 
 
 const theme = createTheme({
@@ -32,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme = {theme}>
-
+        <NavBar/>
       </ThemeProvider>
     </div>
   );
