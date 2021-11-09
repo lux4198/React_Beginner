@@ -29,8 +29,8 @@ const styles = makeStyles({
     menuItem: {
         cursor: "pointer", 
         flexGrow: 1,
-        "&:hover": {
-            color:  "#4f25c8"
+        '&:hover': {
+            color: '#581894'
         },
         ['@media (max-width:780px)']: { 
             paddingBottom: "1rem"    },
@@ -59,7 +59,7 @@ function NavBar() {
                 <Typography variant = 'h6' className = {classes.menuItem}>
                     Locations
                 </Typography>
-                <CustomBttn text = 'Click Me'/>
+                <CustomBttn text = 'Log In'/>
             </Toolbar>
     )
 }
